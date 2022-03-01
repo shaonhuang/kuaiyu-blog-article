@@ -1,0 +1,22 @@
+{
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "semi": true,
+        "eslintIntegration": true,
+        "stylelintIntegration": true,
+        "tabWidth": 2,
+        "doubleQuote": true,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
